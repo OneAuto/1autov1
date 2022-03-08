@@ -31,6 +31,23 @@
     u {
       color: green;
     }
+    div.laptop-wrapper {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+div.laptop-wrapper iframe {
+    box-sizing: border-box;
+    background: url(https://i.stack.imgur.com/zZNgk.png) center center no-repeat;
+    background-size: contain;
+    padding: 11.9% 15.5% 14.8%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
   </style>
   <script>
     $(document).ready(function () {
@@ -133,14 +150,11 @@
         <div class="col-md-6 themed-grid-col">
           <span class="badge badge-info">
             <label style="font-size:20px;">Checkout Course Demo</label>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-              class="bi bi-play-circle-fill" viewBox="0 0 16 16">
-              <path
-                d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
-            </svg>
           </span>
-          <div class="rounded embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/t338I_pVwpo" allowfullscreen></iframe>
+          <br>
+          <div class="laptop-wrapper">
+            <br>
+            <iframe width="560" height="315" class="embed-responsive-item" src="//www.youtube.com/embed/t338I_pVwpo" allowfullscreen></iframe>
           </div>
 
         </div>
@@ -173,8 +187,15 @@
           height="500" loading="lazy">
       </div>
       <div class="col-md-6 themed-grid-col">
-        <img src="img/rightflierv3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-          height="500" loading="lazy">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="laptop-wrapper">
+                <iframe width="560" height="315" src="//www.youtube.com/embed/f890SC1schE" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     </div>
