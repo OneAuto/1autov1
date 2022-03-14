@@ -132,6 +132,24 @@
     .slick-slide {
       margin: 10px
     }
+    .float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
   </style>
 
   <script>
@@ -269,7 +287,7 @@
 
         <div class="row">
           <div class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Why choose OneAuto?</h2>
+            <h2 class="pb-2 border-bottom text-left">Why choose OneAuto?</h2>
             <div class="col-md-6 themed-grid-col">
               <img src="img/rightflierv3.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
                 height="500" loading="lazy">
@@ -285,7 +303,7 @@
 
         <div class="row">
           <div class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Course Details</h2>
+            <h2 class="pb-2 border-bottom text-left" >Course Details</h2>
             <div class="col-md-6 themed-grid-col">
               <h3 class="display-9 fw-bold text-center lh-6 mb-7">Syllabus</h3>
 
@@ -380,97 +398,8 @@
           </div>
         </div>
       </div>
-
-      <div class="container px-4 py-5">
-        <h2 class="pb-2 border-bottom">Custom cards</h2>
-
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-          <div class="col">
-            <div class="card card-cover h-50 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-              style="background-image: url('unsplash-photo-1.jpg');">
-              <div class="d-flex flex-column h-50 p-5 pb-3 text-white text-shadow-1">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill" />
-                    </svg>
-                    <small>Earth</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3" />
-                    </svg>
-                    <small>3d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-              style="background-image: url('./img/icons8-selenium.svg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill" />
-                    </svg>
-                    <small>Pakistan</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3" />
-                    </svg>
-                    <small>4d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg"
-              style="background-image: url('unsplash-photo-3.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32"
-                      class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#geo-fill" />
-                    </svg>
-                    <small>California</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em">
-                      <use xlink:href="#calendar3" />
-                    </svg>
-                    <small>5d</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="container px-4 py-5">
-      <h2 class="pb-2 border-bottom">Testimonials</h2>
+      <h2 class="pb-2 border-bottom text-left">Testimonials</h2>
       <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -589,7 +518,7 @@
 
     <!--Section: FAQ-->
     <div class="container px-4 py-5">
-      <h2 class="pb-2 border-bottom">FAQ</h2>
+      <h2 class="pb-2 border-bottom text-left">FAQ</h2>
       <section>
         <div class="row">
           <div class="col-md-6 col-lg-4 mb-4">
@@ -649,6 +578,11 @@
       </section>
     </div>
     <!--Section: FAQ-->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
   </main>
 
 
